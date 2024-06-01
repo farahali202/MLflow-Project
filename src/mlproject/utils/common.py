@@ -3,7 +3,7 @@ from box.exceptions import BoxValueError
 #instead of writin 
 # a chaque fois exception akan3ytolih hna
 import yaml
-from mlproject import logger
+from src.mlproject import logger
 import json
 import joblib
 from ensure import ensure_annotations

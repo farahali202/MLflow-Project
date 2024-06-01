@@ -1,0 +1,20 @@
+#In an MLOps (Machine Learning Operations) data science project
+#, the term artifacts_root in a config.yml file typically
+# refers to the directory path where various artifacts of
+# the machine learning pipeline are stored. 
+#Artifacts are outputs generated during the lifecycle of a
+# machine learning project, including:
+# Trained models
+# Preprocessed data
+# Evaluation metrics and logs
+# Model checkpoints
+# Visualizations and plots
+# Any intermediate files produced during the pipeline
+
+artifacts_root: artifacts #ancrer folder smito artifacts
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_URL: https://github.com/farahali202/machine-learning/raw/main/winequality-data.zip
+  local_data_file: artifacts/data_ingestion/data.zip
+  unzip_dir: artifacts/data_ingestion
